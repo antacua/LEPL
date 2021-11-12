@@ -59,7 +59,8 @@ on constructors described above: the walker takes a visitor sub-class and
 calls it in a way that replicates the original calls to the node constructors.
 '''
 
-from collections import Sequence, deque
+from collections.abc import Sequence
+from collections import deque
 
 from lepl.support.lib import compose, safe_in, safe_add, empty, fmt,\
     fallback_add

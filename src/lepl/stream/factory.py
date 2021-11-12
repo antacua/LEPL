@@ -28,7 +28,7 @@
 # MPL or the LGPL License.
 
 
-from collections import Iterable
+from collections.abc import Iterable
 
 from lepl.stream.simple import SequenceHelper, StringHelper, ListHelper
 from lepl.stream.iter import IterableHelper, Cons
